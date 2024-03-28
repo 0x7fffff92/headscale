@@ -62,6 +62,6 @@ kos:
         #      - "{{ if not .Prerelease }}v{{ .Major }}.{{ .Minor }}{{ end }}"
         #      - "{{ if not .Prerelease }}v{{ .Major }}{{ end }}"
         #      - "{{ if not .Prerelease }}stable{{ else }}unstable{{ end }}"
-      - "{{ .Tag }}"
-      - '{{ trimprefix .Tag "v" }}'
-      - "sha-{{ .ShortCommit }}"
+        #      - "{{ .Tag }}"
+        #      - '{{ trimprefix .Tag "v" }}'
+        #      - "sha-{{ .ShortCommit }}"
